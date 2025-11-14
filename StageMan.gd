@@ -13,11 +13,6 @@ const PULSE_INTENSITY = 1.2
 var t_extra = 0
 var should_extra = false
 
-#This is probably unstable, find better later
-func pulse(delta):
-	osc += 4*delta
-	modulate *= PULSE_INTENSITY**(sin(osc) * delta) 
-
 func call_extrapolate(color : Color):
 	t_extra = 0
 	should_extra = true
@@ -34,10 +29,6 @@ func extrapolate(delta):
 	modulate = (end_color - start_color) * (t_extra/10) + start_color
 
 func _process(delta):
-	if should_extra:
-		extrapolate(delta)
-	else:
-		pulse(delta)
 	
 	if Input.is_action_just_pressed("PAUSE"):
 		if !paused:
