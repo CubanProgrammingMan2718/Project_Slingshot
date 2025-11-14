@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://lys1rrnopeeg"
-path="res://.godot/imported/slime2.png-cddcee320b3ab9a7f05a32ac0c1e53ef.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Characters/Enemies/Slime/slime2.png"
-dest_files=["res://.godot/imported/slime2.png-cddcee320b3ab9a7f05a32ac0c1e53ef.ctex"]
 
 [params]
 

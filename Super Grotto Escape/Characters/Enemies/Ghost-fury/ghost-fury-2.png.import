@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bx8ikf0628oh7"
-path="res://.godot/imported/ghost-fury-2.png-6862961dbf6c8d38fdd36431cdd2a95f.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Characters/Enemies/Ghost-fury/ghost-fury-2.png"
-dest_files=["res://.godot/imported/ghost-fury-2.png-6862961dbf6c8d38fdd36431cdd2a95f.ctex"]
 
 [params]
 

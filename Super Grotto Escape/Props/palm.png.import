@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4lhye1lf844m"
-path="res://.godot/imported/palm.png-f458545f2cd261d39e64b41de426a25e.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Props/palm.png"
-dest_files=["res://.godot/imported/palm.png-f458545f2cd261d39e64b41de426a25e.ctex"]
 
 [params]
 

@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://e6a2lkqgkpsc"
-path="res://.godot/imported/force-field1.png-6216ff9a0dce318e01ef6b575ba58748.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Fx/Force-Field/force-field1.png"
-dest_files=["res://.godot/imported/force-field1.png-6216ff9a0dce318e01ef6b575ba58748.ctex"]
 
 [params]
 

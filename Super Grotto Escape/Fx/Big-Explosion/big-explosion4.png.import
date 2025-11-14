@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dk6icu0r8hu43"
-path="res://.godot/imported/big-explosion4.png-bb7695cb47b5832d546f9d6f2e32ae3d.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Fx/Big-Explosion/big-explosion4.png"
-dest_files=["res://.godot/imported/big-explosion4.png-bb7695cb47b5832d546f9d6f2e32ae3d.ctex"]
 
 [params]
 

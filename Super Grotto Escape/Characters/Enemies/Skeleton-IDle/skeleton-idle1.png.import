@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://djqxkqu3k82r7"
-path="res://.godot/imported/skeleton-idle1.png-0d967fc1c303c64f76999793616c7009.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Characters/Enemies/Skeleton-IDle/skeleton-idle1.png"
-dest_files=["res://.godot/imported/skeleton-idle1.png-0d967fc1c303c64f76999793616c7009.ctex"]
 
 [params]
 

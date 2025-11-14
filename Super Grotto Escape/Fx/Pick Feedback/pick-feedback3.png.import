@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bxm1gjfj7sjq4"
-path="res://.godot/imported/pick-feedback3.png-1b897c7a91dfe8c5d2b25fdb847c726a.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Fx/Pick Feedback/pick-feedback3.png"
-dest_files=["res://.godot/imported/pick-feedback3.png-1b897c7a91dfe8c5d2b25fdb847c726a.ctex"]
 
 [params]
 

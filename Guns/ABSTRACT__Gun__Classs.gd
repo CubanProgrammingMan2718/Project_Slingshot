@@ -1,4 +1,4 @@
-@icon("res://mc2robo1.png")
+@icon("res://Character/mc2robo1.png")
 class_name Gun2D
 extends Node2D
 
@@ -40,7 +40,7 @@ func abstract_ready():
 		
 		var progress_bar = TextureProgressBar.new()
 		progress_bar.fill_mode = TextureProgressBar.FillMode.FILL_CLOCKWISE
-		progress_bar.texture_progress = preload("res://mc2robo1.png") #This is a placeholder, replace with proper texture
+		progress_bar.texture_progress = preload("res://Character/mc2robo1.png") #This is a placeholder, replace with proper texture
 		progress_bar.position = Vector2(10, -30)
 		add_child(progress_bar)
 		p_circ = progress_bar

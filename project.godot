@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="GunSlinger"
-run/main_scene="uid://c1i38onaqansf"
+run/main_scene="uid://cwnm8jkoavlyp"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 

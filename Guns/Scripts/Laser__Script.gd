@@ -1,7 +1,7 @@
 extends Gun2D
 
 func shoot(vel : Vector2):
-	var bull = preload("res://Laser_bullet.tscn").instantiate()
+	var bull = preload("res://Guns/Laser_bullet.tscn").instantiate()
 	get_tree().root.get_child(0).add_child(bull)
 	bull.velocity = vel
 	bull.position = get_child(0).global_position

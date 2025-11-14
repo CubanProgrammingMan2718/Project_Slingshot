@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cwnm8jkoavlyp"]
+
+[ext_resource type="Script" uid="uid://cac8s0dufa0yc" path="res://Interactable_Menu_chara_ctrl.gd" id="1_m2sqd"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Main Menu 2D Stuff" type="Node2D" parent="."]
+script = ExtResource("1_m2sqd")

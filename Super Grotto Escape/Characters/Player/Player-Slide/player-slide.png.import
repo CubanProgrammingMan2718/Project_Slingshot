@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3xc86ee1vqwq"
-path="res://.godot/imported/player-slide.png-11b1b0282e836605f5d062d70e851ec5.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Characters/Player/Player-Slide/player-slide.png"
-dest_files=["res://.godot/imported/player-slide.png-11b1b0282e836605f5d062d70e851ec5.ctex"]
 
 [params]
 

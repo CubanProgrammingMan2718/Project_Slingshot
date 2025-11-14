@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4kjsrehl63bq"
-path="res://.godot/imported/lizard-move3.png-36dc2b99a6a07968ee5eced60fd9f68c.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Characters/Enemies/lizard moves/lizard-move3.png"
-dest_files=["res://.godot/imported/lizard-move3.png-36dc2b99a6a07968ee5eced60fd9f68c.ctex"]
 
 [params]
 

@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dclj4fnexdryx"
-path="res://.godot/imported/tileset.png-cb8d179a43f269f964767c142584e982.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Environment/tileset/tileset.png"
-dest_files=["res://.godot/imported/tileset.png-cb8d179a43f269f964767c142584e982.ctex"]
 
 [params]
 

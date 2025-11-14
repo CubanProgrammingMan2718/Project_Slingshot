@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bq6jdcqh35v2p"
-path="res://.godot/imported/ghost-shocked.png-68c5d5aea795330b6026d2e12f861cf1.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Characters/Enemies/Ghost-shocked/ghost-shocked.png"
-dest_files=["res://.godot/imported/ghost-shocked.png-68c5d5aea795330b6026d2e12f861cf1.ctex"]
 
 [params]
 

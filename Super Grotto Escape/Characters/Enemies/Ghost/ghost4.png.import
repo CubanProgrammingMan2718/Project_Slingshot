@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://f1rsojpels30"
-path="res://.godot/imported/ghost4.png-34e5126a948bbfc59ecf64ff4ad9c971.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Characters/Enemies/Ghost/ghost4.png"
-dest_files=["res://.godot/imported/ghost4.png-34e5126a948bbfc59ecf64ff4ad9c971.ctex"]
 
 [params]
 
