@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://0k81xj81dsqh"]
+
+[ext_resource type="Script" uid="uid://b1xpneroyk1tc" path="res://ammo_renewal.gd" id="1_vvtx6"]
+[ext_resource type="Texture2D" uid="uid://d5r524xhd5rr" path="res://icon.svg" id="2_me105"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c4q8t"]
+size = Vector2(31, 32)
+
+[node name="Ammo Renewal" type="Area2D"]
+script = ExtResource("1_vvtx6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_c4q8t")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_me105")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

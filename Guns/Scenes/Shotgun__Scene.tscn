@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dncocauifrix1"]
+
+[ext_resource type="Script" uid="uid://cq52pdf1ls6gs" path="res://Guns/Scripts/Shotgun__Script.gd" id="1_p6k6k"]
+[ext_resource type="Texture2D" uid="uid://cmpdipc2iqp1x" path="res://Guns/Sprites/Main Chara.png" id="2_crxyp"]
+
+[node name="Shotgun" type="Node2D"]
+script = ExtResource("1_p6k6k")
+COLOR = Color(0.90452373, 0.83647513, 0.8540073, 1)
+propulsion = 1000
+ammo = 4
+reload_ms = 500
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -12)
+scale = Vector2(0.82, 0.103)
+texture = ExtResource("2_crxyp")
+offset = Vector2(20.342852, 0)

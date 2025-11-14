@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://28txas3ak8h7"]
+
+[ext_resource type="Script" uid="uid://cf6x5lbc2fhr3" path="res://Guns/Scripts/Railgun__Script.gd" id="1_1xcnu"]
+[ext_resource type="Texture2D" uid="uid://cmpdipc2iqp1x" path="res://Guns/Sprites/Main Chara.png" id="2_rj2li"]
+[ext_resource type="Texture2D" uid="uid://d5r524xhd5rr" path="res://icon.svg" id="3_rj2li"]
+
+[node name="Railgun" type="Node2D"]
+script = ExtResource("1_1xcnu")
+COLOR = Color(0.32156864, 0.75686276, 0.96862745, 1)
+propulsion = 5000
+ammo = 2
+reload_ms = 5000
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(5.000003, -12.000001)
+scale = Vector2(2.2638848, 0.103)
+texture = ExtResource("2_rj2li")
+offset = Vector2(16.104, 0)
+
+[node name="Icon" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(27.82827, -9.708725)
+scale = Vector2(0.028, 0.607)
+texture = ExtResource("3_rj2li")

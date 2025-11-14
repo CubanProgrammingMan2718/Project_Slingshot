@@ -1,0 +1,48 @@
+[gd_scene load_steps=7 format=3 uid="uid://dqskdqniamwv6"]
+
+[ext_resource type="Script" uid="uid://cm4a8tdbo7tft" path="res://Movement.gd" id="1_lkjmv"]
+[ext_resource type="Texture2D" uid="uid://bj010k1yuwvck" path="res://mc2robo1.png" id="2_lkjmv"]
+[ext_resource type="Script" uid="uid://cq52pdf1ls6gs" path="res://Shotgun.gd" id="3_k8kpd"]
+[ext_resource type="Texture2D" uid="uid://c4qlfn2hnmlw7" path="res://qqq.png" id="4_fvvc2"]
+[ext_resource type="Script" uid="uid://dabbine1sj3hc" path="res://Revolver.gd" id="5_b4tr4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uu6xs"]
+size = Vector2(20, 30)
+
+[node name="Robot Dude" type="CharacterBody2D"]
+use_parent_material = true
+script = ExtResource("1_lkjmv")
+
+[node name="Mc2Robo1" type="Sprite2D" parent="."]
+position = Vector2(-5, -16)
+scale = Vector2(2, 2)
+texture = ExtResource("2_lkjmv")
+
+[node name="Robot Dude Coll" type="CollisionShape2D" parent="."]
+position = Vector2(-1, -15)
+shape = SubResource("RectangleShape2D_uu6xs")
+
+[node name="Guns" type="Node2D" parent="."]
+
+[node name="Gun 1" type="Node2D" parent="Guns"]
+script = ExtResource("3_k8kpd")
+COLOR = Color(0.90452373, 0.83647513, 0.8540073, 1)
+propulsion = 1000
+
+[node name="Sprite2D" type="Sprite2D" parent="Guns/Gun 1"]
+position = Vector2(0, -12)
+scale = Vector2(0.82, 0.103)
+texture = ExtResource("4_fvvc2")
+offset = Vector2(20.342852, 0)
+
+[node name="Gun 2" type="Node2D" parent="Guns"]
+script = ExtResource("5_b4tr4")
+
+[node name="Sprite2D" type="Sprite2D" parent="Guns/Gun 2"]
+position = Vector2(4, -12)
+scale = Vector2(0.36, 0.103)
+texture = ExtResource("4_fvvc2")
+offset = Vector2(30.09895, 0)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2, 2)

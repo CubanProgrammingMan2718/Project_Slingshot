@@ -1,0 +1,122 @@
+[gd_scene load_steps=8 format=3 uid="uid://c1i38onaqansf"]
+
+[ext_resource type="PackedScene" uid="uid://dqskdqniamwv6" path="res://Character/robot_dude.tscn" id="1_5b7ti"]
+[ext_resource type="Script" uid="uid://cac8s0dufa0yc" path="res://Interactable_Menu_chara_ctrl.gd" id="1_i5qic"]
+[ext_resource type="PackedScene" uid="uid://bt66jm8sgwfv6" path="res://Guns/Scenes/Laser__Scene.tscn" id="2_dvdtt"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_7yr4w"]
+font_size = 160
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dvdtt"]
+size = Vector2(2039, 750)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_i5qic"]
+size = Vector2(91, 20)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_i5qic"]
+radius = 117.15
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_horizontal_guides_ = [509.0]
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.25
+anchor_right = 0.75
+anchor_bottom = 0.34100002
+offset_left = 137.0
+offset_right = -137.0
+offset_bottom = -9.802032
+grow_horizontal = 2
+grow_vertical = 2
+text = "     Project 
+ - Slingshot - "
+label_settings = SubResource("LabelSettings_7yr4w")
+
+[node name="Panel" type="Panel" parent="."]
+z_index = 10
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.35
+anchor_right = 0.9
+anchor_bottom = 0.95
+offset_left = 0.10397339
+offset_top = 0.46795654
+offset_right = 0.85180664
+offset_bottom = -0.62597656
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 54.09601
+offset_top = -420.16797
+offset_right = -1706.0518
+offset_bottom = -1041.274
+grow_horizontal = 2
+grow_vertical = 2
+text = "Engage"
+
+[node name="Main Menu 2D Stuff" type="Node2D" parent="."]
+script = ExtResource("1_i5qic")
+
+[node name="Robot Dude" parent="Main Menu 2D Stuff" instance=ExtResource("1_5b7ti")]
+z_index = -1
+position = Vector2(452, 658)
+
+[node name="Laser" parent="Main Menu 2D Stuff/Robot Dude/Guns" index="0" instance=ExtResource("2_dvdtt")]
+ammo = -1
+
+[node name="Camera2D" parent="Main Menu 2D Stuff/Robot Dude" index="3"]
+zoom = Vector2(1, 1)
+limit_left = 0
+limit_top = 0
+limit_bottom = 1440
+limit_smoothed = true
+position_smoothing_speed = 0.0
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Main Menu 2D Stuff"]
+position = Vector2(255, 463)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Main Menu 2D Stuff/StaticBody2D"]
+position = Vector2(1019.5, 418)
+shape = SubResource("RectangleShape2D_dvdtt")
+one_way_collision = true
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="Main Menu 2D Stuff"]
+position = Vector2(0, 122)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Main Menu 2D Stuff/StaticBody2D2"]
+position = Vector2(451.5, 551)
+shape = SubResource("RectangleShape2D_i5qic")
+one_way_collision = true
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="Main Menu 2D Stuff"]
+position = Vector2(2802, 897)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Main Menu 2D Stuff/StaticBody2D3"]
+position = Vector2(1019.5, 418)
+shape = SubResource("RectangleShape2D_dvdtt")
+one_way_collision = true
+
+[node name="Area2D" type="Area2D" parent="Main Menu 2D Stuff"]
+position = Vector2(4812, 598)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Main Menu 2D Stuff/Area2D"]
+shape = SubResource("CircleShape2D_i5qic")
+
+[connection signal="pressed" from="Panel/Button" to="Main Menu 2D Stuff" method="_on_button_pressed"]
+[connection signal="area_entered" from="Main Menu 2D Stuff/Area2D" to="Main Menu 2D Stuff" method="_on_area_2d_area_entered"]
+
+[editable path="Main Menu 2D Stuff/Robot Dude"]
