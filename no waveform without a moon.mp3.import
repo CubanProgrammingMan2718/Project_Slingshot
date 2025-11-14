@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bimhb0t40ka6u"
+path="res://.godot/imported/no waveform without a moon.mp3-37e186a36525375c93f633ae26ab11a2.mp3str"
+
+[deps]
+
+source_file="res://no waveform without a moon.mp3"
+dest_files=["res://.godot/imported/no waveform without a moon.mp3-37e186a36525375c93f633ae26ab11a2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

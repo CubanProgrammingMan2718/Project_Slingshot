@@ -1,8 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://c1i38onaqansf"]
+[gd_scene load_steps=9 format=3 uid="uid://c1i38onaqansf"]
 
 [ext_resource type="PackedScene" uid="uid://dqskdqniamwv6" path="res://Character/robot_dude.tscn" id="1_5b7ti"]
 [ext_resource type="Script" uid="uid://cac8s0dufa0yc" path="res://Interactable_Menu_chara_ctrl.gd" id="1_i5qic"]
 [ext_resource type="PackedScene" uid="uid://bt66jm8sgwfv6" path="res://Guns/Scenes/Laser__Scene.tscn" id="2_dvdtt"]
+[ext_resource type="Texture2D" uid="uid://d5r524xhd5rr" path="res://icon.svg" id="4_12kdf"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_7yr4w"]
 font_size = 160
@@ -107,6 +108,22 @@ position = Vector2(4812, 598)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Main Menu 2D Stuff/Area2D"]
 shape = SubResource("CircleShape2D_i5qic")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(1284.5, 877)
+scale = Vector2(16.226563, 6.015625)
+texture = ExtResource("4_12kdf")
+
+[node name="Icon2" type="Sprite2D" parent="."]
+position = Vector2(3820, 1281.0001)
+scale = Vector2(15.578125, 5.7734375)
+texture = ExtResource("4_12kdf")
+
+[node name="Icon3" type="Sprite2D" parent="."]
+modulate = Color(0.43424696, 0.16456789, 0, 1)
+position = Vector2(4818, 597.5)
+scale = Vector2(1.9375, 1.8671875)
+texture = ExtResource("4_12kdf")
 
 [connection signal="pressed" from="Panel/Button" to="Main Menu 2D Stuff" method="_on_button_pressed"]
 [connection signal="area_entered" from="Main Menu 2D Stuff/Area2D" to="Main Menu 2D Stuff" method="_on_area_2d_area_entered"]

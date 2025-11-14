@@ -37,7 +37,8 @@ func _process(delta):
 		if dir:
 			bdir = dir
 		if Input.is_action_just_pressed("JUMP") and !is_on_floor():
-			velocity += Vector2(-300*bdir, -500)
+			velocity.y = -400 
+			velocity.x = -200*bdir
 	$DEBUG_VEL.points[1] = velocity/10
 	if can_move:
 		if is_on_floor():
