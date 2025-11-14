@@ -11,7 +11,7 @@ var w = 100
 func _process(delta):
 	
 	if q:
-		t += delta/w
+		t += 0 * delta/w ##REMOVE THE ZERO FOR PROPER FUNCTION
 		position = init_pos + 120*Vector2(6*sin(5*t), 3*sin(TAU*t)*cos(t)) 
 		var vel = Vector2(30*cos(5*t), -3*sin(TAU*t)*sin(t) + 3*TAU*cos(TAU*t)*cos(t))
 		look_at(position - vel*delta);
@@ -27,6 +27,7 @@ func _on_body_entered(body: Node2D) -> void:
 			var shotgun = preload("res://Guns/Scenes/Shotgun__Scene.tscn").instantiate()
 			
 			body.get_child(2).add_child(shotgun)
+			body.curr_gun = 0
 			shotgun.switchIn()
 			
 			queue_free()
