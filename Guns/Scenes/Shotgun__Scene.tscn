@@ -6,11 +6,13 @@
 [node name="Shotgun" type="Node2D"]
 script = ExtResource("1_p6k6k")
 COLOR = Color(0.90452373, 0.83647513, 0.8540073, 1)
-propulsion = 1000
-ammo = 4
+propulsion = 400
+ammo = 3
 reload_ms = 500
+max_ammo = 3
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(0, -12)
-texture = ExtResource("2_crxyp")
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_mhus0")
 offset = Vector2(20.342852, 0)
