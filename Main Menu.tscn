@@ -79,7 +79,6 @@ position = Vector2(452, 658)
 ammo = -1
 
 [node name="Camera2D" parent="Main Menu 2D Stuff/Robot Dude" index="3"]
-zoom = Vector2(1, 1)
 limit_left = 0
 limit_top = 0
 limit_bottom = 1440
@@ -106,7 +105,7 @@ one_way_collision = true
 position = Vector2(2802, 897)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Main Menu 2D Stuff/StaticBody2D3"]
-position = Vector2(1019.5, 418)
+position = Vector2(1019, 375)
 shape = SubResource("RectangleShape2D_dvdtt")
 one_way_collision = true
 

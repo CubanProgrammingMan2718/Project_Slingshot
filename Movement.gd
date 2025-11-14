@@ -29,6 +29,7 @@ func _process(delta):
 	gun_set = $Guns
 	var dir = Input.get_axis("LEFT", "RIGHT")
 	var p = $"Pointing Vector"
+	p.target_position = Vector2(12,0)
 	if dir:
 		p.target_position = 12*dir*Vector2.RIGHT
 	if p.is_colliding():
@@ -53,7 +54,7 @@ func _process(delta):
 	move_and_slide()
 	
 	if Input.is_action_just_pressed("SWITCH") and can_swap:
-		var gun = gun_set.get_child(curr_gun)
+		gun = gun_set.get_child(curr_gun)
 		gun.switchOut()
 		curr_gun = (curr_gun + 1)%gun_set.get_child_count()
 		gun = gun_set.get_child(curr_gun)

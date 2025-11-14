@@ -28,6 +28,7 @@ shape = SubResource("RectangleShape2D_uu6xs")
 zoom = Vector2(2, 2)
 
 [node name="DEBUG_VEL" type="Line2D" parent="."]
+visible = false
 points = PackedVector2Array(0, 0, 0, 0)
 width = 1.0
 
