@@ -7,8 +7,9 @@
 script = ExtResource("1_nxn4y")
 COLOR = Color(0.9999997, 0.9107556, 0.6776471, 1)
 propulsion = 80
-ammo = 100
+ammo = 4294967296
 reload_ms = 100
+max_ammo = 4294967296
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(4, -12)

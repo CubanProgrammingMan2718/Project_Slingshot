@@ -19,7 +19,6 @@ func _process(_delta):
 			can_shoot = false
 			if(ammo != UNLIMITED):
 				ammo -= 1
-				ammo_lab.text = str(ammo)
 			if timer:
 				timer.start(reload_time)
 		p_circ.value = 100*(1 - timer.time_left/reload_time)

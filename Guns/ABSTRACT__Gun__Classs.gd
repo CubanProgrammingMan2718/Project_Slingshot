@@ -24,9 +24,10 @@ var can_shoot = true
 
 var timer : Timer
 var p_circ : TextureProgressBar
-var ammo_lab : Label
+
 
 func abstract_ready():
+	
 	if max_ammo == 0:
 		max_ammo = ammo;
 	set_process(false)
@@ -44,18 +45,15 @@ func abstract_ready():
 		progress_bar.position = Vector2(10, -30)
 		add_child(progress_bar)
 		p_circ = progress_bar
-	if true: #Originally if ammo:
-		var ammo_disp = Label.new()
-		if ammo != UNLIMITED:
-			ammo_disp.text = str(ammo)
-		else:
-			ammo_disp.text = "∞"
-		ammo_disp.position = Vector2(0, -70)
-		add_child(ammo_disp)
-		ammo_lab = ammo_disp
+
+var rot_p = 0
 
 @warning_ignore("unused_parameter")
 func abstract_process(delta):
+	if player.flip:
+		rot_p = PI
+	else:
+		rot_p = 0
 	var mouse_pos = get_local_mouse_position()
 	
 	if can_rot:
@@ -65,7 +63,6 @@ func abstract_process(delta):
 		can_shoot = false
 		if ammo != UNLIMITED:
 			ammo -= 1
-			ammo_lab.text = str(ammo)
 		if timer:
 			timer.start(reload_time)
 	if p_circ:

@@ -26,8 +26,9 @@ func _process(delta):
 
 func _on_button_pressed() -> void:
 	get_child(0).visible = true
-	$"../Panel/Button".disabled = true
+	$"../Button".disabled = true
 	$"Robot Dude/Camera2D".enabled = true
+	$"../Camera2D".queue_free()
 	MOVING = 1
 	
 

@@ -11,7 +11,7 @@ var w = 100
 func _process(delta):
 	
 	if q:
-		t += 0 * delta/w ##REMOVE THE ZERO FOR PROPER FUNCTION
+		t += delta/w ##REMOVE THE ZERO FOR PROPER FUNCTION
 		position = init_pos + 120*Vector2(6*sin(5*t), 3*sin(TAU*t)*cos(t)) 
 		var vel = Vector2(30*cos(5*t), -3*sin(TAU*t)*sin(t) + 3*TAU*cos(TAU*t)*cos(t))
 		look_at(position - vel*delta);

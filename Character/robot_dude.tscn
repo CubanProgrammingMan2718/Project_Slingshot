@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://bj010k1yuwvck" path="res://mc2robo1.png" id="2_lkjmv"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uu6xs"]
-size = Vector2(20, 30)
+size = Vector2(18, 30)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gxprh"]
 size = Vector2(20, 23)
@@ -14,12 +14,12 @@ use_parent_material = true
 script = ExtResource("1_lkjmv")
 
 [node name="Mc2Robo1" type="Sprite2D" parent="."]
-position = Vector2(-5, -16)
+position = Vector2(0, -16)
 scale = Vector2(2, 2)
 texture = ExtResource("2_lkjmv")
 
 [node name="Robot Dude Coll" type="CollisionShape2D" parent="."]
-position = Vector2(-1, -15)
+position = Vector2(3, -15)
 shape = SubResource("RectangleShape2D_uu6xs")
 
 [node name="Guns" type="Node2D" parent="."]
@@ -39,7 +39,7 @@ collision_layer = 2
 collision_mask = 2
 
 [node name="HurtBox Collider" type="CollisionShape2D" parent="HurtBox"]
-position = Vector2(-1, -11.5)
+position = Vector2(0, -11)
 shape = SubResource("RectangleShape2D_gxprh")
 debug_color = Color(0.7369455, 0, 0.07351324, 0.43137255)
 
