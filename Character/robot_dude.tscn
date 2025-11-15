@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://dqskdqniamwv6"]
 
 [ext_resource type="Script" uid="uid://cm4a8tdbo7tft" path="res://Movement.gd" id="1_lkjmv"]
-[ext_resource type="Texture2D" uid="uid://bj010k1yuwvck" path="res://mc2robo1.png" id="2_lkjmv"]
+[ext_resource type="Texture2D" uid="uid://bj010k1yuwvck" path="res://Character/mc2robo1.png" id="2_lkjmv"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uu6xs"]
 size = Vector2(18, 30)

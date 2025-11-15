@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ctbdxpfn578lx"
-path="res://.godot/imported/bat2.png-392f160d0e756f0e2d0427211babd9d6.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Characters/Enemies/Bat/bat2.png"
-dest_files=["res://.godot/imported/bat2.png-392f160d0e756f0e2d0427211babd9d6.ctex"]
 
 [params]
 

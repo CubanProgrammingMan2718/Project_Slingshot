@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cr67h42pdhqci"
-path="res://.godot/imported/big-crate.png-ee09c8ed99af66aa9fea84e9567bf347.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Props/big-crate.png"
-dest_files=["res://.godot/imported/big-crate.png-ee09c8ed99af66aa9fea84e9567bf347.ctex"]
 
 [params]
 

@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://0denmj0q2ysh"
-path="res://.godot/imported/metal-column.png-04e6ba055d1abee969a1379521f49f87.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Props/metal-column.png"
-dest_files=["res://.godot/imported/metal-column.png-04e6ba055d1abee969a1379521f49f87.ctex"]
 
 [params]
 

@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dq0vgqxyscvw8"
-path="res://.godot/imported/player-ladder4.png-8c05d0399e4a7e59e98dfcaa4a92349a.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Characters/Player/Player-Ladder/player-ladder4.png"
-dest_files=["res://.godot/imported/player-ladder4.png-8c05d0399e4a7e59e98dfcaa4a92349a.ctex"]
 
 [params]
 

@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://7u1lh8y0elso"
-path="res://.godot/imported/fly-eye4.png-e79f00f62e2467104b59bf3c41e30e32.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Characters/Enemies/fly-eye/fly-eye4.png"
-dest_files=["res://.godot/imported/fly-eye4.png-e79f00f62e2467104b59bf3c41e30e32.ctex"]
 
 [params]
 

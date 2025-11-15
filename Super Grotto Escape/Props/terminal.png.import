@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqu7h83427qio"
-path="res://.godot/imported/terminal.png-a32cebd4ed52e95c2fba8f76ae8c7acd.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Props/terminal.png"
-dest_files=["res://.godot/imported/terminal.png-a32cebd4ed52e95c2fba8f76ae8c7acd.ctex"]
 
 [params]
 

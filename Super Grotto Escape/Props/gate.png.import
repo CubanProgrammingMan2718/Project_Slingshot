@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bnn1jjy55qrey"
-path="res://.godot/imported/gate.png-a9062d22e6c67c3abc14eccb08b7d70b.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Props/gate.png"
-dest_files=["res://.godot/imported/gate.png-a9062d22e6c67c3abc14eccb08b7d70b.ctex"]
 
 [params]
 

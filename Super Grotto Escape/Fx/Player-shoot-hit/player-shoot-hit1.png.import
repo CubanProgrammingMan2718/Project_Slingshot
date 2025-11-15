@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvk4w8semh8d7"
-path="res://.godot/imported/player-shoot-hit1.png-afaf71f47b90abfc421d3a5523aa4aa6.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Fx/Player-shoot-hit/player-shoot-hit1.png"
-dest_files=["res://.godot/imported/player-shoot-hit1.png-afaf71f47b90abfc421d3a5523aa4aa6.ctex"]
 
 [params]
 

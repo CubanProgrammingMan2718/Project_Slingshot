@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://0k81xj81dsqh"]
 
-[ext_resource type="Script" uid="uid://b1xpneroyk1tc" path="res://ammo_renewal.gd" id="1_vvtx6"]
+[ext_resource type="Script" uid="uid://b1xpneroyk1tc" path="res://Guns/ammo_renewal.gd" id="1_vvtx6"]
 [ext_resource type="Texture2D" uid="uid://d5r524xhd5rr" path="res://icon.svg" id="2_me105"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c4q8t"]

@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cmndwytbcucme"
-path="res://.godot/imported/skeleton-walk2.png-f77767691fbe9b53636a01152c78bb42.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Characters/Enemies/Skeleton-Walk/skeleton-walk2.png"
-dest_files=["res://.godot/imported/skeleton-walk2.png-f77767691fbe9b53636a01152c78bb42.ctex"]
 
 [params]
 

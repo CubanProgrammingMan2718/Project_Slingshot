@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmw4sypch70wu"
-path="res://.godot/imported/vent-pipes.png-f6b86d3fb037e274c4001a94c54c92fd.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Props/vent-pipes.png"
-dest_files=["res://.godot/imported/vent-pipes.png-f6b86d3fb037e274c4001a94c54c92fd.ctex"]
 
 [params]
 

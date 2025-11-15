@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d03bvkv31oufj"
-path="res://.godot/imported/fireball3.png-51191c6cf33063913ae74a315183a95d.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Fx/Fireball/fireball3.png"
-dest_files=["res://.godot/imported/fireball3.png-51191c6cf33063913ae74a315183a95d.ctex"]
 
 [params]
 

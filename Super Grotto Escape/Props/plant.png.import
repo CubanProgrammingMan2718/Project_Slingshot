@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://7i1gywestmm8"
-path="res://.godot/imported/plant.png-ae901f39088f9030076b526b7f8a369c.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Props/plant.png"
-dest_files=["res://.godot/imported/plant.png-ae901f39088f9030076b526b7f8a369c.ctex"]
 
 [params]
 

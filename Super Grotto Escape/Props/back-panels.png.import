@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://yhcrfxjvan17"
-path="res://.godot/imported/back-panels.png-a93811b6752804c8ae15dc8b19c38252.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Props/back-panels.png"
-dest_files=["res://.godot/imported/back-panels.png-a93811b6752804c8ae15dc8b19c38252.ctex"]
 
 [params]
 

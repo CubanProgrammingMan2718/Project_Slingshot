@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bio4dr2o63ykr"
-path="res://.godot/imported/lizard-shoot2.png-1b95b84d46ccf710735a35333e1b61e1.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Super Grotto Escape/Characters/Enemies/lizard shoots/lizard-shoot2.png"
-dest_files=["res://.godot/imported/lizard-shoot2.png-1b95b84d46ccf710735a35333e1b61e1.ctex"]
 
 [params]
 
