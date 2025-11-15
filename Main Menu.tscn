@@ -284,10 +284,10 @@ label_settings = SubResource("LabelSettings_7yr4w")
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 429.39606
-offset_top = 240.77899
-offset_right = 493.39606
-offset_bottom = 271.779
+offset_left = 724.0
+offset_top = 370.0
+offset_right = 788.0
+offset_bottom = 401.0
 grow_horizontal = 2
 grow_vertical = 2
 text = "Engage"
@@ -296,7 +296,7 @@ text = "Engage"
 script = ExtResource("1_i5qic")
 
 [node name="Robot Dude" parent="Main Menu 2D Stuff" instance=ExtResource("1_5b7ti")]
-position = Vector2(452, 658)
+position = Vector2(455, 579)
 
 [node name="Laser" parent="Main Menu 2D Stuff/Robot Dude/Guns" index="0" instance=ExtResource("2_dvdtt")]
 ammo = -1
@@ -311,7 +311,7 @@ limit_smoothed = true
 position_smoothing_speed = 0.0
 
 [node name="StaticBody2D2" type="StaticBody2D" parent="Main Menu 2D Stuff"]
-position = Vector2(0, 122)
+position = Vector2(0, 60)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Main Menu 2D Stuff/StaticBody2D2"]
 position = Vector2(451.5, 551)
@@ -337,7 +337,6 @@ tile_set = SubResource("TileSet_wlsky")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(1281, 600)
-zoom = Vector2(1.2, 1.2)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 

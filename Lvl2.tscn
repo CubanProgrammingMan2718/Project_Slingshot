@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://bm6y5jyorptuj" path="res://GolemBlue.tscn" id="4_4voc1"]
 [ext_resource type="Script" uid="uid://uwajwyohxvir" path="res://Staff.gd" id="5_s6ijg"]
 [ext_resource type="Texture2D" uid="uid://ct0v4rl3bidd1" path="res://Laser-Staff.png" id="5_ugahk"]
-[ext_resource type="AudioStream" uid="uid://bimhb0t40ka6u" path="res://no waveform without a moon.mp3" id="7_j6nqf"]
+[ext_resource type="AudioStream" uid="uid://6twt6ongs21e" path="res://electronic music class homework.mp3" id="7_j6nqf"]
 
 [sub_resource type="TileMapPattern" id="TileMapPattern_3dxm6"]
 tile_data = PackedInt32Array(0, 851969, 13, 65536, 851969, 14, 1, 917505, 13, 65537, 917505, 14)

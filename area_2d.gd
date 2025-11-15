@@ -15,14 +15,12 @@ func _on_body_entered(body: RigidBody2D) -> void:
 func _process(delta):
 	if b:
 		if Input.is_action_just_pressed("JUMP"):
-			count += 1
-				
-	if count > 10:
-		$"../Robot Dude".position = b.position
-		$"../Robot Dude/Camera2D".enabled = true
-		$"../AudioStreamPlayer".play()
-		b.queue_free()
-		queue_free()
+			$"../Robot Dude".position = b.position
+			$"../Robot Dude/Camera2D".enabled = true
+			$"../AudioStreamPlayer".play()
+			b.queue_free()
+			queue_free()
+
 
 
 	
