@@ -13,6 +13,8 @@ var can_move = true
 var can_swap = true
 var flip = false
 
+@onready var spr = $AnimatedSprite2D
+
 
 func _ready():
 	$"Pointing Vector".target_position.x = 1
@@ -36,11 +38,21 @@ func _process(delta):
 	if dir:
 		p.target_position = 18*dir*Vector2.RIGHT
 	flip = bdir == -1
+	
+	if dir and is_on_floor():
+		spr.play("Walking")
+	if not dir and is_on_floor():
+		spr.play("Standing")
+	if not p.is_colliding() and not is_on_floor():
+		spr.play("Falling")
+	
 	if p.is_colliding():
 		
 		velocity.y += (-.5 * GRAVITY - 2*velocity.y) * delta
+		spr.play("Sliding")
 		
 		if Input.is_action_just_pressed("JUMP") and !is_on_floor():
+			spr.play("Falling")
 			velocity.y = -400 
 			velocity.x = -200*bdir
 	$DEBUG_VEL.points[1] = velocity/10
@@ -59,7 +71,7 @@ func _process(delta):
 		if Input.is_action_just_pressed("JUMP") and is_on_floor(): velocity.y = -400
 		
 		velocity.y += GRAVITY * delta
-		$Mc2Robo1.flip_h = flip
+		$AnimatedSprite2D.flip_h = flip
 		
 			
 	move_and_slide()

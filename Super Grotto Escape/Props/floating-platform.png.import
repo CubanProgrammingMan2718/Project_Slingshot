@@ -3,11 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://debi4r5kfnhfk"
-valid=false
+path="res://.godot/imported/floating-platform.png-f062485b59b65035e18000801d3d6034.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://Super Grotto Escape/Props/floating-platform.png"
+dest_files=["res://.godot/imported/floating-platform.png-f062485b59b65035e18000801d3d6034.ctex"]
 
 [params]
 

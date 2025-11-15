@@ -23,7 +23,6 @@ func ammo_av():
 var can_shoot = true
 
 var timer : Timer
-var p_circ : TextureProgressBar
 
 
 func abstract_ready():
@@ -38,13 +37,7 @@ func abstract_ready():
 		add_child(reload_timer)
 		timer = reload_timer
 		timer.connect("timeout", reload)
-		
-		var progress_bar = TextureProgressBar.new()
-		progress_bar.fill_mode = TextureProgressBar.FillMode.FILL_CLOCKWISE
-		progress_bar.texture_progress = preload("res://Character/mc2robo1.png") #This is a placeholder, replace with proper texture
-		progress_bar.position = Vector2(10, -30)
-		add_child(progress_bar)
-		p_circ = progress_bar
+
 
 var rot_p = 0
 
@@ -65,8 +58,6 @@ func abstract_process(delta):
 			ammo -= 1
 		if timer:
 			timer.start(reload_time)
-	if p_circ:
-		p_circ.value = 100*(1 - timer.time_left/reload_time)
 
 func abstract_switchIn():
 	visible = true

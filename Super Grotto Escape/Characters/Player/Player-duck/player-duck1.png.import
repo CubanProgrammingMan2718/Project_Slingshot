@@ -3,11 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bs1exh26q6d77"
-valid=false
+path="res://.godot/imported/player-duck1.png-f2c36c053dbfbbe67eabafedf31078bb.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://Super Grotto Escape/Characters/Player/Player-duck/player-duck1.png"
+dest_files=["res://.godot/imported/player-duck1.png-f2c36c053dbfbbe67eabafedf31078bb.ctex"]
 
 [params]
 

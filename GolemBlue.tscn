@@ -1,0 +1,34 @@
+[gd_scene load_steps=6 format=3 uid="uid://bm6y5jyorptuj"]
+
+[ext_resource type="Texture2D" uid="uid://bwiuany1boqgg" path="res://golemEnemyBlue.png" id="1_3o01k"]
+[ext_resource type="Script" uid="uid://d0rduvaf3r465" path="res://golem_blue.gd" id="1_oxxnk"]
+[ext_resource type="Texture2D" uid="uid://cojv0eivhvbsx" path="res://walkerGBlue.png" id="3_3uo07"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3o01k"]
+size = Vector2(600, 600)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2dt7g"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_3o01k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_3uo07")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_oxxnk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -3)
+shape = SubResource("RectangleShape2D_3o01k")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(10, 10)
+sprite_frames = SubResource("SpriteFrames_2dt7g")
+frame_progress = 0.86863595

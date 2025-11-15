@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://b0c75udp6uxug"]
+
+[ext_resource type="Script" uid="uid://b6occe8pa1dra" path="res://laser_bullet.gd" id="1_57c43"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3nydu"]
+size = Vector2(14, 4)
+
+[node name="CollisionShape2D" type="Area2D" groups=["Bullet"]]
+z_index = 3
+script = ExtResource("1_57c43")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_3nydu")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -7.0
+offset_top = -2.0
+offset_right = 7.0
+offset_bottom = 2.0

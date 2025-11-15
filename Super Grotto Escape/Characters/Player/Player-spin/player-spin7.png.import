@@ -3,11 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://catqhe0dmvkvs"
-valid=false
+path="res://.godot/imported/player-spin7.png-cb9bb1d4456f80d4d2c40d17586fe199.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://Super Grotto Escape/Characters/Player/Player-spin/player-spin7.png"
+dest_files=["res://.godot/imported/player-spin7.png-cb9bb1d4456f80d4d2c40d17586fe199.ctex"]
 
 [params]
 

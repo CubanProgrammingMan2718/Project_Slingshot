@@ -1,18 +1,18 @@
 [gd_scene load_steps=3 format=3 uid="uid://bt66jm8sgwfv6"]
 
 [ext_resource type="Script" uid="uid://dabbine1sj3hc" path="res://Guns/Scripts/Laser__Script.gd" id="1_nxn4y"]
-[ext_resource type="Texture2D" uid="uid://cmpdipc2iqp1x" path="res://Guns/Sprites/Main Chara.png" id="2_cy55n"]
+[ext_resource type="Texture2D" uid="uid://ct0v4rl3bidd1" path="res://Laser-Staff.png" id="2_84qq5"]
 
 [node name="Laser" type="Node2D"]
 script = ExtResource("1_nxn4y")
-COLOR = Color(0.9999997, 0.9107556, 0.6776471, 1)
+COLOR = Color(0.82681334, 0.5717311, 0.9796228, 1)
 propulsion = 80
-ammo = 4294967296
+ammo = 10000
 reload_ms = 100
-max_ammo = 4294967296
+max_ammo = 10000
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(4, -12)
-scale = Vector2(0.36, 0.103)
-texture = ExtResource("2_cy55n")
+position = Vector2(0, -8)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_84qq5")
 offset = Vector2(30.09895, 0)

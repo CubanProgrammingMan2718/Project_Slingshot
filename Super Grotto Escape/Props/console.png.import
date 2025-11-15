@@ -3,11 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://nuad3yas4pt0"
-valid=false
+path="res://.godot/imported/console.png-0b50a3d29ac0337166225120ae44433f.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://Super Grotto Escape/Props/console.png"
+dest_files=["res://.godot/imported/console.png-0b50a3d29ac0337166225120ae44433f.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@ extends Gun2D
 func shoot(vel : Vector2):
 	var bull = preload("res://Guns/Laser_bullet.tscn").instantiate()
 	get_tree().root.get_child(0).add_child(bull)
-	bull.velocity = vel
+	bull.velo = vel
 	bull.position = get_child(0).global_position
 	bull.rotation = atan2(vel.y, vel.x)
 
@@ -21,4 +21,3 @@ func _process(_delta):
 				ammo -= 1
 			if timer:
 				timer.start(reload_time)
-		p_circ.value = 100*(1 - timer.time_left/reload_time)

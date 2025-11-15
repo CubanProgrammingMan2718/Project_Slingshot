@@ -3,11 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c350o7mk1dcyt"
-valid=false
+path="res://.godot/imported/player-jump1.png-7951e3c60ddf261472f42f4b9b8d5f0e.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://Super Grotto Escape/Characters/Player/Player-jump/player-jump1.png"
+dest_files=["res://.godot/imported/player-jump1.png-7951e3c60ddf261472f42f4b9b8d5f0e.ctex"]
 
 [params]
 
